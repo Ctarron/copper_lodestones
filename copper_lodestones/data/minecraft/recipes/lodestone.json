@@ -1,22 +1,22 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "blocks",
-  "group": "lodestone",
-  "pattern": [
-    "SSS",
-    "S#S",
-    "SSS"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:copper_ingot"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "lodestone",
+    "key": {
+      "#": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "S": {
+        "item": "minecraft:chiseled_stone_bricks"
+      }
     },
-    "S": {
-      "item": "minecraft:chiseled_stone_bricks"
+    "pattern": [
+      "SSS",
+      "S#S",
+      "SSS"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:lodestone"
     }
-  },
-  "result": {
-    "id": "minecraft:lodestone",
-    "count": 1
   }
-}
